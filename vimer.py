@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from androguard.decompiler.dad import decompile
 from androguard.core.bytecodes.dvm import ClassDefItem
 from androguard.core.bytecodes.dvm import EncodedMethod
