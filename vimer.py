@@ -21,7 +21,5 @@ def vim(dx, obj):
 
 def vimopen(contents):
     fd, filename = mkstemp(suffix=".java")
-    f = os.fdopen(fd, "w")
-    f.write(contents)
-    f.close()
+    os.fdopen(fd, "w").write(contents)
     os.system("tmux split-window -h 'vim "+filename+" && rm -f "+filename+"'")
