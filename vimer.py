@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# Copyright 2015 The plugins Authors. All rights reserved.
+# Use of this source code is governed by a BSD-style
+# license that can be found in the LICENSE file.
+
 from androguard.decompiler.dad import decompile
 from androguard.core.bytecodes.dvm import ClassDefItem
 from androguard.core.bytecodes.dvm import EncodedMethod
